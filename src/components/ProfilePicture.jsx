@@ -6,7 +6,7 @@ const ProfilePicture = () => (
     <img
       src={foto}
       alt='Foto de Mateo Rivera'
-      className='rounded-full w-20 m-0'
+      className='rounded-full w-32 m-0'
     />
   </div>
 );
