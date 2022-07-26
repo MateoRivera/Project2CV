@@ -7,7 +7,7 @@ const Footer = () => (
       <span className='text-white content'>
         Carrera 56 # 63 A 31 - Itagüí - Antioquia
       </span>
-      <span className='text-white content'>mateo.rivera@udea.edu.co</span>
+      <span className='text-white content'>+57 300 542 80 75</span>
     </div>
 
     <SocialMedia />
