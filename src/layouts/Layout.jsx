@@ -1,17 +1,15 @@
+import Footer from 'components/Footer';
+import Navbar from 'components/Navbar';
 import { Outlet } from 'react-router-dom';
 
-// delete this
-const Layout = () => <Outlet />;
-
-// replace it with your own layout
-// const Layout = () => {
-//   return (
-//     <>
-//       <>
-//         <Outlet />
-//       </>
-//     </>
-//   );
-// };
+const Layout = () => (
+  <div className='w-full h-screen flex flex-col'>
+    <Navbar />
+    <div className='h-full bg-gris'>
+      <Outlet />
+    </div>
+    <Footer />
+  </div>
+);
 
 export default Layout;

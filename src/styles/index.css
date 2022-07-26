@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+.title{
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.subtitle{
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.content{
+    font-size: 14.2px;
+    font-family: 'Nunito', sans-serif;
+}
