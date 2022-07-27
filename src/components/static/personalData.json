@@ -1,0 +1,17 @@
+{
+    "objetivo_profesional": "Innovar y brindar soluciones enfocadas al análisis y diseño, implementación y mantenimiento de sistemas de información que permitan automatizar tareas repetitivas y generación de reportes; investigar y aprender sobre la implementación de modelos de aprendizaje automático que permitan resolver problemas de regresión o clasificación, así como también llevarlos a un entorno de producción",
+    
+    "education": {
+        "title": ["Título otorgado", "Institución Educativa", "Estado"],
+        "d1": ["Bachiller académico técnico en programación de software en convenio con el SENA", "Institución Educativa Célestin Freinet", "Finalizado"],
+        "d2": ["Ingeniero de sistemas", "Universidad de Antioquia", "2017 - Presente"]
+    },
+
+    "courses": {
+        "title": ["Curso", "Institución", "Duración"],
+        "d1": ["Curso de Python", "Platzi", "-"],
+        "d2": ["Bash - Intérprete de comandos de Linux", "Udemy", "3 horas"],
+        "d3": ["Desarrollo de videojuegos - Ciclo 1", "Ubicua - Universidad de Antioquia", "5 meses"]
+    }
+
+}

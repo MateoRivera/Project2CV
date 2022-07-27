@@ -4,15 +4,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 .title{
-    @apply text-3xl font-bold font-Nunito;
+    @apply text-3xl font-bold font-Nunito md:text-4xl;
 }
 
 .subtitle{
-    font-size: 24px;
-    font-family: 'Nunito', sans-serif;
+    @apply text-2xl font-Nunito md:text-3xl; 
 }
 
 .content{
-    font-size: 14.2px;
-    font-family: 'Nunito', sans-serif;
+    @apply text-sm font-Nunito md:text-lg;
 }
