@@ -9,6 +9,7 @@ module.exports = {
         black: '#001D23',
         primary: '#2B4352',
         secondary: '#FF4A76',
+        tertiary: '#FFA34E',
       },
       fontFamily: {
         Nunito: ['Nunito'],

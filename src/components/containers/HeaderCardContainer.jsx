@@ -3,13 +3,13 @@ import React from 'react';
 
 const HeaderCardContainer = ({ head }) => {
   return (
-    <>
+    <tr>
       {head.map((element) => (
-        <td key={element}>
+        <th key={element} className='w-1/3'>
           <Subtitle subtitle={element} />
-        </td>
+        </th>
       ))}
-    </>
+    </tr>
   );
 };
 

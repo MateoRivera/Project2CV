@@ -9,11 +9,11 @@ const BodyCardContainer = ({ data }) => {
   );
 
   return (
-    <table className='md:items-center'>
-      <tr className='hidden md:block'>
+    <table className='table-auto w-full border-separate border-spacing-y-3'>
+      <thead className=''>
         <HeaderCardContainer head={data.title} />
-      </tr>
-      {rows.slice(1)}
+      </thead>
+      <tbody>{rows.slice(1)}</tbody>
     </table>
   );
 };
