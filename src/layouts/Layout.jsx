@@ -3,12 +3,14 @@ import Navbar from 'components/Navbar';
 import { Outlet } from 'react-router-dom';
 
 const Layout = () => (
-  <div className='w-full h-screen flex flex-col justify-between'>
+  <div className='h-screen flex flex-col justify-between'>
     <Navbar />
-    <div className='h-full bg-gray overflow-scroll'>
-      <Outlet />
+    <div className='overflow-scroll'>
+      <div className='bg-gray'>
+        <Outlet />
+      </div>
+      <Footer />
     </div>
-    <Footer />
   </div>
 );
 
