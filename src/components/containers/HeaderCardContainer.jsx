@@ -1,4 +1,4 @@
-import Title from 'components/text/Title';
+import Subtitle from 'components/text/Subtitle';
 import React from 'react';
 
 const HeaderCardContainer = ({ head }) => {
@@ -6,7 +6,7 @@ const HeaderCardContainer = ({ head }) => {
     <>
       {head.map((element) => (
         <td key={element}>
-          <Title title={element} />
+          <Subtitle subtitle={element} />
         </td>
       ))}
     </>

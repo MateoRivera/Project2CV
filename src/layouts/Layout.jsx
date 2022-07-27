@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 const Layout = () => (
   <div className='w-full h-screen flex flex-col justify-between'>
     <Navbar />
-    <div className='h-full bg-gris overflow-scroll'>
+    <div className='h-full bg-gray overflow-scroll'>
       <Outlet />
     </div>
     <Footer />
