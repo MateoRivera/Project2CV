@@ -12,6 +12,15 @@
         "d1": ["Curso de Python", "Platzi", "-"],
         "d2": ["Bash - Intérprete de comandos de Linux", "Udemy", "3 horas"],
         "d3": ["Desarrollo de videojuegos - Ciclo 1", "Ubicua - Universidad de Antioquia", "5 meses"]
+    },
+
+    "personalXP": {
+        "title": ["Cargo", "Lugar", "Estado"],
+        "d1": ["Tutor académico", "Unidad de bienestar de Ingeniería de la Universidad de Antioquia", "23/07/2018 - Presente"],
+        "d2": ["Monitor del semillero interdisciplinario de ingeniería", "Facultad de Ingeniería de la Universidad de Antioquia", "28/10/2019 - 10/12/2019"],
+        "d3": ["Monitor de geometría vectorial y analítica", "Facultad de ciencias exactas y naturales de la Universidad de Antioquia", "11/08/2020 - 10/02/2022"],
+        "d4": ["Monitor del proyecto de Misión TIC 2022", "Facultad de Ingeniería de la Universidad de Antioquia", "01/05/2021 - Presente"],
+        "d5": ["Auxiliar de programación", "Facultad de Ingeniería de la Universidad de Antioquia", "28/03/2022 - Presente"]
     }
 
 }

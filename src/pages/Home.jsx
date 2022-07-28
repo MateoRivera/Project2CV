@@ -3,14 +3,29 @@ import education from 'components/static/education';
 import professionalObjective from 'components/static/professionalObjective';
 import courses from 'components/static/courses';
 import React from 'react';
+import personalXP from 'components/static/personalXP';
+import TitleFloating from 'components/text/TitleFloating';
 
 const Home = () => (
   <main className='h-full p-3 flex flex-col gap-3 md:items-center'>
-    <CardContainer title='Objetivo profesional' body={professionalObjective} />
-    <div className='flex flex-col gap-3 lg:grid lg:grid-cols-2 lg:gap-3'>
+    <div className='md:max-w-3xl'>
+      <CardContainer
+        title='Objetivo profesional'
+        body={professionalObjective}
+      />
+    </div>
+
+    <div className='flex flex-col md:max-w-3xl gap-3 lg:grid lg:grid-cols-2 lg:gap-3 lg:max-w-full'>
       <CardContainer title='Educación' body={education} />
       <CardContainer title='Cursos y certificaciones' body={courses} />
     </div>
+
+    <div className='lg:w-full'>
+      <CardContainer title='Experiencia personal' body={personalXP} />
+    </div>
+
+    <TitleFloating title='Hobbies' />
+    <TitleFloating title='Idiomas' />
   </main>
 );
 
