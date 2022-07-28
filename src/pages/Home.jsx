@@ -24,8 +24,13 @@ const Home = () => (
       <CardContainer title='Experiencia personal' body={personalXP} />
     </div>
 
-    <TitleFloating title='Hobbies' />
-    <TitleFloating title='Idiomas' />
+    <div className='w-full'>
+      <TitleFloating title='Hobbies' />
+    </div>
+
+    <div className='w-full'>
+      <TitleFloating title='Idiomas' />
+    </div>
   </main>
 );
 
