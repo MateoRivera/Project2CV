@@ -20,7 +20,7 @@ const Home = () => (
       <CardContainer title='Cursos y certificaciones' body={courses} />
     </div>
 
-    <div className='md:max-w-3xl lg:max-w-full'>
+    <div className='md:max-w-3xl lg:max-w-full lg:w-full'>
       <CardContainer title='Experiencia personal' body={personalXP} />
     </div>
 
