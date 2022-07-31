@@ -40,6 +40,20 @@
             "title": "Música",
             "body": "Cuando estoy desarrollando o diseñando me gusta escuchar música, en general escucho pop. Mis grupos favoritos son Hakuna y Morat, y mis artistas favoritos son Athenas, Andrés Cepeda, Sebastián Yatra. También, para practicar la escucha, escucho artistas italianos."
         }       
+    },
+    "languages": {
+        "l1": {
+            "language": "Español",
+            "level": "Nativo"
+        },
+        "l2": {
+            "language": "Inglés",
+            "level": "Medio"
+        },
+        "l3": {
+            "language": "Italiano",
+            "level": "Medio"
+        }
     }
 
 }
