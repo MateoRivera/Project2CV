@@ -21,6 +21,25 @@
         "d3": ["Monitor de geometría vectorial y analítica", "Facultad de ciencias exactas y naturales de la Universidad de Antioquia", "11/08/2020 - 10/02/2022"],
         "d4": ["Monitor del proyecto de Misión TIC 2022", "Facultad de Ingeniería de la Universidad de Antioquia", "01/05/2021 - Presente"],
         "d5": ["Auxiliar de programación", "Facultad de Ingeniería de la Universidad de Antioquia", "28/03/2022 - Presente"]
+    },
+
+    "hobbies": {
+        "h1": {
+            "title": "¡Enseñar!",
+            "body": "Me gusta acompañar y apoyar a mis compañeros de la Universidad en sus dificultades con los cursos catalogados del tronco común de ingeniería; en  especial en los cursos de geometría vectorial y analítica y álgebra lineal"
+        },
+        "h2": {
+            "title": "¡Series y películas!",
+            "body": "Mi tiempo de ocio me gusta invertirlo en ver series y películas en Netflix, mi interés está sobre todo lo relacionado con zombies, supervivencia, y viajes al espacio exterior."
+        },
+        "h3": {
+            "title": "Videojuegos",
+            "body": "Encuentro muy interesante los videojuegos de aventura que tienen un arte tirando al realismo, uno de mis favoritos es Dying Light, que además combina el tema de los zombies, con un arte increíble (Estoy pendiende de comprar la segunda parte)."
+        },
+        "h4": {
+            "title": "Música",
+            "body": "Cuando estoy desarrollando o diseñando me gusta escuchar música, en general escucho pop. Mis grupos favoritos son Hakuna y Morat, y mis artistas favoritos son Athenas, Andrés Cepeda, Sebastián Yatra. También, para practicar la escucha, escucho artistas italianos."
+        }       
     }
 
 }

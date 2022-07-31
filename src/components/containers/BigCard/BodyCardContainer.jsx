@@ -1,6 +1,6 @@
 import React from 'react';
-import RowCardContainer from 'components/containers/RowCardContainer';
-import HeaderCardContainer from 'components/containers/HeaderCardContainer';
+import RowCardContainer from 'components/containers/BigCard/RowCardContainer';
+import HeaderCardContainer from 'components/containers/BigCard/HeaderCardContainer';
 
 const BodyCardContainer = ({ data }) => {
   const rows = [];
