@@ -1,17 +1,17 @@
+import Footer from 'components/Footer';
+import Navbar from 'components/Navbar';
 import { Outlet } from 'react-router-dom';
 
-// delete this
-const Layout = () => <Outlet />;
-
-// replace it with your own layout
-// const Layout = () => {
-//   return (
-//     <>
-//       <>
-//         <Outlet />
-//       </>
-//     </>
-//   );
-// };
+const Layout = () => (
+  <div className='bg-gray h-screen flex flex-col justify-between'>
+    <Navbar />
+    <div className='overflow-scroll'>
+      <div className=''>
+        <Outlet />
+      </div>
+      <Footer />
+    </div>
+  </div>
+);
 
 export default Layout;
